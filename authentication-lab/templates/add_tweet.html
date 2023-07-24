@@ -6,5 +6,27 @@
 </head>
 <body>
     Great Job!
+
+        <!-- Title -->
+    <form method = 'POST' action = '/add_tweet'>
+        <div>
+            <label>Title*</label>
+            <div class="input-group">
+                <input type="title"  name="title">
+            </div>
+        </div>
+
+        <!-- Text -->
+        <div>
+            <label>Text*</label>
+            <div class="input-group">
+                <input type="text"  name="text" maxlength="280">
+            </div>
+        </div>
+                <!-- Button -->
+        <div>
+            <input href ='/all_tweets' type="submit"/>
+        </div>
+    </form>
 </body>
 </html>
